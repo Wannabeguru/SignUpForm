@@ -26,19 +26,24 @@ body {
     flex: 1;
 }
 
+h1{
+    position: center;
+    font-size: 3vw;
+}
 
 
 .left {
     background: url(/images/conept-pic.avif) no-repeat;
 }
 
-.right {
+
+.formContainer {
     display: flex;
-    background-color: rgb(239,194,233);
-    margin-top: 0;
+    background: rgb(239,194,233);
+    width: 50%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 form {
@@ -46,7 +51,7 @@ form {
     justify-content: space-evenly;
     align-items: center;
     width: 50%;
-    background: rgb(239,194,233);
+    
 }
 
 .innerLeft {
@@ -78,4 +83,19 @@ input::placeholder {
     left: 1rem;
     padding: 0.20em;
 
+}
+
+button {
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 15%;
+    overflow: auto;
+    border-radius: 4px;
+    padding: auto;
+    border: none;
+}
+
+small {
+    font-size: calc(10px + 0.3em);
+    margin-right: 5%;
 }
