@@ -93,9 +93,15 @@ button {
     border-radius: 4px;
     padding: auto;
     border: none;
+    cursor: pointer;
+    
 }
+
+
+
 
 small {
     font-size: calc(10px + 0.3em);
     margin-right: 5%;
 }
+

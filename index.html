@@ -7,6 +7,7 @@
     <title>Bubbly</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Konkhmer+Sleokchher">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     
@@ -16,7 +17,7 @@
         </div>
         <div class="formContainer">
             <h1> Sign Up now!</h1>
-            <form>
+            <form id="my-form">
                     <div class="innerLeft">
                         <div>
                             <input type="text" name="first" id="first" placeholder="First Name" required>
@@ -41,7 +42,7 @@
                         </div>
                     </div>
             </form>
-            <button>Click me</button>
+            <button type="submit" form='my-form' id='submit-btn'>Click me</button>
             <small>
                 Already have an account? 
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Login</a> 
